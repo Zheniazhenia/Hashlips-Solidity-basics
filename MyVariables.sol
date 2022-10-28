@@ -14,13 +14,13 @@ contract MyVariables {
     }
 }
 
-contract INeedVariables is MyVariables {
+contract INeedVariables is MyVariables { // inheritance, now IN have access to all MyV 
     uint256 public theAwesomeVar = 100;
     uint256 public theTime = time;
 }
 
 // Variables:
-// public is accessable 
-// private is 
-// internal is
-// Global vars like msg block and others live on a blockchain.
+// public is accessible by all
+// private is enclosed and not under inheritage, only by this contract
+// internal is used in inheritage but not accessable to read from outside.
+// Global vars like msg or block and others live on a blockchain.
