@@ -15,12 +15,13 @@ contract MyTypes {
     int32 private myInt32 = -6756567;
     int16 internal myInt16 = -6773;
     int8 internal myInt8 = -127; // // -128 to +127;  bc one bit goes for sin
+
+    int256 myNewVar = int256(myInt8);
     
     address myAddress = address(0x943590A42C27D08e3744202c4Ae5eD55c2dE240D);
-    address myContractAddress = address(this);
+    address myContractAddress = address(this);  // this  is this contract address
     
     uint256 balanceOfMyContract = myContractAddress.balance;
-
 }
-*/
-  public, private and internal ^
+// payable - means that it can receive money
+// public, private and internal
