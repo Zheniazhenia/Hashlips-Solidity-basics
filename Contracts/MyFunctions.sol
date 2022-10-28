@@ -32,5 +32,5 @@ contract MyFunctions {
    function myNoReturnFunc() external {
        myBool = false;
    }
-// It changes variable so it cannot be view
+// It changes variable so it cannot be view!
 }
