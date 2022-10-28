@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "example_1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "example_2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "example_3",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "example_4",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "example_5",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"example_1()": {
+					"notice": "Arithmetic Operators (+, -, *, /, %, ++, --)"
+				},
+				"example_2()": {
+					"notice": "Assignment Operators (=, +=, -=, *=, /=, %=)"
+				},
+				"example_3()": {
+					"notice": "Comparison Operators (==, != , <, <=, >, >= )"
+				},
+				"example_4()": {
+					"notice": "Logical Operators (!, &&, ||)"
+				},
+				"example_5()": {
+					"notice": "Conditional Operator (? A:B)"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyOperators.sol": "MyOperators"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyOperators.sol": {
+			"keccak256": "0x0eaa426eb9fbeebfc245245b930b09dcb1f7feb8f244c183c6a84d0b7c1a5a8f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f769df256e515c5e3c24c2b49579eb9da9db8b4264f93c3717b1fa46b0628eb5",
+				"dweb:/ipfs/QmWVi2ZV6YaSsku4s3g1HiZxJmtP2VfApD5bgQKX1uMoQv"
+			]
+		}
+	},
+	"version": 1
+}
